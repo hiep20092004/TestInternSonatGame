@@ -189,7 +189,11 @@ public class GameManager : MonoBehaviour
             {
                 if (i == j) continue;
                 if (CanPour(bottles[i], bottles[j]))
-                { 
+                {
+                    Debug.LogWarning($"Có nước đi " +
+                                     $"Từ chai {i} (Màu {bottles[i].GetTopColor()}) " +
+                                     $"Sang chai {j} (Màu {bottles[j].GetTopColor()}) " +
+                                     $"| Đích đầy chưa? {bottles[j].IsFull}");
                     return true;
                 }
             }

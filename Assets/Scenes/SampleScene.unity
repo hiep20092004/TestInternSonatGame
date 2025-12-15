@@ -509,7 +509,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -574,8 +574,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 229}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -413, y: 232}
+  m_SizeDelta: {x: 92.1981, y: 17.2871}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &564969287
 MonoBehaviour:
@@ -599,7 +599,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 70
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
@@ -1378,12 +1378,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -1224698763785792138, guid: 4075eb838a1a1494f9283f3110b5f6dd, type: 3}
+  m_Sprite: {fileID: -7443756053782179069, guid: c376a058ac24e1348a0f349c8f59aed0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.33, y: 2.33}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1398,8 +1398,8 @@ Transform:
   m_GameObject: {fileID: 1817063575}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.06, y: 0.02, z: 0}
-  m_LocalScale: {x: 26.151106, y: 26.151106, z: 26.151106}
+  m_LocalPosition: {x: -0.2, y: -1.7, z: 0}
+  m_LocalScale: {x: 8.348629, y: 8.348629, z: 8.348629}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2095,9 +2095,9 @@ MonoBehaviour:
   completeClip: {fileID: 8300000, guid: 42681da9c7be47341a5aad5cdb527897, type: 3}
   winClip: {fileID: 8300000, guid: 43004a335338bc64e92008dfbbfa5cb3, type: 3}
   loseClip: {fileID: 8300000, guid: 5692e2611b3223141aca7f03648ed9cc, type: 3}
-  gapX: 2.5
-  gapY: 8
-  maxColumns: 4
+  gapX: 3
+  gapY: 6
+  maxColumns: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

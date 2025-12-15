@@ -121,7 +121,6 @@ public class BottleController : MonoBehaviour
 
     public int GetFreeSpace() => maxCapacity - _liquids.Count;
 
-
     // Kiểm tra chai đã hoàn thành
     public bool IsCompleted()
     {
